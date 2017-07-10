@@ -1,0 +1,65 @@
+body {
+    background-color: #0e1215;
+    color: #8296a2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+.hero {
+    align-items: center;
+    background-color: #eee;
+    background-position: center center;
+    background-size: cover;
+    color: #eee;
+    display: flex;
+    height: 90vh;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero a {
+    color: #eee;
+}
+
+.hero a:hover {
+    color: #eee;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        height: 460px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero {
+        height: 640px;
+    }
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.display-1 {
+    line-height: 5rem;
+}
+
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+a {
+    color: #8296a2;
+    text-decoration: underline;
+    transition: color 200ms;
+}
+
+a:hover {
+    color: #3e5c77;
+    transition: color 200ms;
+}
